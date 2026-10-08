@@ -1,16 +1,32 @@
-# app_one
+# Flutter UI Practice App
 
-A new Flutter project.
+A Flutter practice app from a mobile app development course, covering navigation, state, and fetching data from REST APIs.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Splash, home, books, profile and secondary screens
+- Posts list and post detail, fetched from JSONPlaceholder (`http`)
+- Users fetched from the reqres.in API
+- Light/dark theme with `provider`, and preferences saved with `shared_preferences`
+- Custom launcher icon
 
-A few resources to get you started if this is your first Flutter project:
+## Tech stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Flutter · Dart · http · Provider · Shared Preferences
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Getting started
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Project structure
+
+```
+lib/  main, splash_screen, home, books, posts, posts2, postdetails, users, profile, screen2, themeprovider, models
+```
+
+## Author
+
+**Mati ul Rehman**: [github.com/Matiz009](https://github.com/Matiz009)
